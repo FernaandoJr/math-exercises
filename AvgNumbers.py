@@ -8,7 +8,7 @@ while True:
     number = input("Digite vários números para se ter uma média deles (Pressione Enter para sair): ")
     if number == "":
         break
-    numbers.append(int(number))
+    numbers.append(float(number))
 
 med = sum(numbers) / len(numbers)
 
